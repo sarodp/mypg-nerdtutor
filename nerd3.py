@@ -8,7 +8,8 @@ import pygame, glob
 xsound = glob.glob("./media/*.ogg")
 xsound.sort()
 
-xmusic=glob.glob("./media/*.*['mid','mp3','wav']")
+#xmusic=glob.glob("./media/*.*['mid','mp3','wav']")
+xmusic=glob.glob("./media/*.mid")
 xmusic.sort()
 
 #--init screen,mouse,clock
